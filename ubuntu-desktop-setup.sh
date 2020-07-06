@@ -28,6 +28,9 @@ sudo apt install gnome-tweak-tool -y
 # Tor browser
 sudo apt install torbrowser-launcher -y
 
+# For htpasswd command
+sudo apt install apache2-utils -y
+
 # GIT
 sudo apt-add-repository ppa:git-core/ppa -y
 sudo apt update
