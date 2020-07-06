@@ -35,7 +35,7 @@ sudo apt install git -y
 
 # Docker
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+wget -qO - https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88 -y
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" -y
 sudo apt update -y
@@ -46,13 +46,11 @@ sudo usermod -aG docker $USER
 sudo apt install nvidia-driver-440 -y
 
 # Node.js
-curl -fsSL https://deb.nodesource.com/setup_14.5 -o nodesource_setup.sh
-sudo bash nodesource_setup.sh
+wget -qO - https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install nodejs -y
-rm nodesource_setup.sh
 
 # Yarn
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+wget -qO - https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
 sudo apt install yarn -y
