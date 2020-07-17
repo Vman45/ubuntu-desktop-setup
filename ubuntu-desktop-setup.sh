@@ -63,11 +63,11 @@ sudo add-apt-repository ppa:linuxuprising/java -y
 sudo apt update
 sudo apt install oracle-java14-installer -y
 
-# IDEA 2020.1.2
+# IDEA 2020.1.3
 sudo apt install rename -y
-wget https://download-cf.jetbrains.com/idea/ideaIU-2020.1.2.tar.gz
+wget https://download-cf.jetbrains.com/idea/ideaIU-2020.1.3.tar.gz
 mkdir ~/Applications/IDEA -p
-tar -xzvf ideaIU-2020.1.2.tar.gz
+tar -xzvf ideaIU-2020.1.3.tar.gz
 mv idea-IU-201* ~/Applications/IDEA
 
 # Create template
