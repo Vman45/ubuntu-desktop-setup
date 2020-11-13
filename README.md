@@ -18,4 +18,4 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
     * [Yarn](https://yarnpkg.com)
 * Editors
     * [Sublime 3](https://www.sublimetext.com/3)
-    * [IDEA 2020.1.4](https://www.jetbrains.com) on [Oracle JAVA 14](https://www.oracle.com/java/technologies)
+    * [IDEA 2020.2.3](https://www.jetbrains.com) on [Oracle JAVA 14](https://www.oracle.com/java/technologies)
