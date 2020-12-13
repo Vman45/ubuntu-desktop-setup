@@ -58,10 +58,10 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update
 sudo apt install yarn -y
 
-# Oracle JAVA 14 for IDEA
+# Oracle JAVA for IDEA
 sudo add-apt-repository ppa:linuxuprising/java -y
 sudo apt update
-sudo apt install oracle-java14-installer -y
+sudo apt install oracle-java15-installer -y
 
 # IDEA 2020.2.4
 sudo apt install rename -y
