@@ -63,7 +63,7 @@ sudo add-apt-repository ppa:linuxuprising/java -y
 sudo apt update
 sudo apt install oracle-java15-installer -y
 
-# IDEA 2020.2.4
+# IDEA
 sudo apt install rename -y
 wget https://download-cf.jetbrains.com/idea/ideaIU-2020.2.4.tar.gz
 mkdir ~/Applications -p
