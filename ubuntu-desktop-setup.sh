@@ -49,7 +49,7 @@ sudo usermod -aG docker $USER
 sudo apt install nvidia-driver-440 -y
 
 # Node.js
-wget -qO - https://deb.nodesource.com/setup_14.x | sudo -E bash -
+wget -qO - https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt install nodejs -y
 
 # Yarn
