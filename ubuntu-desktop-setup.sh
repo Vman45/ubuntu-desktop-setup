@@ -46,7 +46,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose -y
 sudo usermod -aG docker $USER
 
 # NVIDIA driver
-sudo apt install nvidia-driver-440 -y
+sudo apt install nvidia-driver-450 -y
 
 # Node.js
 wget -qO - https://deb.nodesource.com/setup_15.x | sudo -E bash -
