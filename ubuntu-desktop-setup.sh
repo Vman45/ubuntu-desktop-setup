@@ -88,16 +88,29 @@ sudo apt install oracle-java15-installer -y
 # IDEA
 sudo apt install rename -y
 wget https://download-cf.jetbrains.com/idea/ideaIU-2020.3.1.tar.gz
-mkdir ~/Applications -p
 tar -xzvf ideaIU-2020.3.1.tar.gz
 rm ideaIU-2020.3.1.tar.gz
 rename "s/idea-IU-203.+/IDEA/" *
+mkdir ~/Applications -p
 mv IDEA ~/Applications
 
 # LibreOffice
 sudo add-apt-repository ppa:libreoffice/ppa -y
 sudo apt update
 sudo apt install libreoffice libreoffice-gnome -y
+
+
+
+##############
+# Messengers #
+##############
+# Telegram
+sudo apt install rename -y
+wget https://telegram.org/dl/desktop/linux
+tar -xf linux
+rm linux
+mkdir ~/Applications -p
+mv Telegram ~/Applications
 
 
 
