@@ -8,6 +8,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
     * [Google Chrome](https://www.google.ru/intl/en/chrome)
     * [Tor browser](https://www.torproject.org/download)
 * System
+    * htpasswd
     * [Gnome Tweak Tool](https://wiki.gnome.org/Apps/Tweaks)
     * NVIDIA driver
 * Development

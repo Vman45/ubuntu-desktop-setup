@@ -1,35 +1,46 @@
 #!/bin/bash
-# Update OS
+##########
+# Ubuntu #
+##########
 sudo apt update
 sudo apt dist-upgrade -y
 sudo apt autoremove -y
 
-# Terminator
-sudo apt install terminator -y
 
+
+############
+# Browsers #
+############
 # Google Chrome
 wget -qO - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 sudo apt update
 sudo apt install google-chrome-stable -y
 
-# Sublime
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo apt install apt-transport-https -y
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt update
-sudo apt install sublime-text -y
-sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /etc/gnome/defaults.list
-sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /usr/share/applications/defaults.list
+# Tor browser
+sudo apt install torbrowser-launcher -y
+
+
+
+##########
+# System #
+##########
+# htpasswd command
+sudo apt install apache2-utils -y
 
 # Gnome Tweak Tool
 sudo apt install gnome-tweak-tool -y
 
-# Tor browser
-sudo apt install torbrowser-launcher -y
+# NVIDIA driver
+sudo apt install nvidia-driver-450 -y
 
-# For htpasswd command
-sudo apt install apache2-utils -y
+
+
+###############
+# Development #
+###############
+# Terminator
+sudo apt install terminator -y
 
 # GIT
 sudo apt-add-repository ppa:git-core/ppa -y
@@ -45,9 +56,6 @@ sudo apt update -y
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose -y
 sudo usermod -aG docker $USER
 
-# NVIDIA driver
-sudo apt install nvidia-driver-450 -y
-
 # Node.js
 wget -qO - https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt install nodejs -y
@@ -57,6 +65,20 @@ wget -qO - https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
 sudo apt install yarn -y
+
+
+
+###########
+# Editors #
+###########
+# Sublime
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt install apt-transport-https -y
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt update
+sudo apt install sublime-text -y
+sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /etc/gnome/defaults.list
+sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /usr/share/applications/defaults.list
 
 # Oracle JAVA for IDEA
 sudo add-apt-repository ppa:linuxuprising/java -y
@@ -77,5 +99,9 @@ sudo add-apt-repository ppa:libreoffice/ppa -y
 sudo apt update
 sudo apt install libreoffice libreoffice-gnome -y
 
+
+#########
+# Other #
+#########
 # Create template
 touch ~/Templates/Untitled
