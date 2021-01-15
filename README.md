@@ -19,3 +19,4 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
 * Editors
     * [Sublime 3](https://www.sublimetext.com/3)
     * [IDEA](https://www.jetbrains.com) on [Oracle JAVA 14](https://www.oracle.com/java/technologies)
+    * [LibreOffice](https://www.libreoffice.org)

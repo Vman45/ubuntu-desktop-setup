@@ -71,5 +71,10 @@ tar -xzvf ideaIU-2020.2.4.tar.gz
 rename "s/idea-IU-202.+/IDEA/" *
 mv IDEA ~/Applications
 
+# LibreOffice
+sudo add-apt-repository ppa:libreoffice/ppa -y
+sudo apt update
+sudo apt install libreoffice libreoffice-gnome -y
+
 # Create template
 touch ~/Templates/Untitled
