@@ -100,6 +100,7 @@ sudo apt update
 sudo apt install libreoffice libreoffice-gnome -y
 
 
+
 #########
 # Other #
 #########
