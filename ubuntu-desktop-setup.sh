@@ -32,7 +32,8 @@ sudo apt install apache2-utils -y
 sudo apt install gnome-tweak-tool -y
 
 # NVIDIA driver
-sudo apt install nvidia-driver-450 -y
+sudo add-apt-repository ppa:graphics-drivers/ppa -y
+sudo apt install nvidia-driver-460 -y
 
 
 
