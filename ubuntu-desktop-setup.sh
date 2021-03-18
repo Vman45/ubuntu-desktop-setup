@@ -95,6 +95,10 @@ rename "s/idea-IU-203.+/IDEA/" *
 mkdir ~/Applications -p
 mv IDEA ~/Applications
 
+# IDEA shortcut
+wget -q https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/master/idea.desktop
+mv idea.desktop ~/.local/share/applications
+
 # LibreOffice
 sudo add-apt-repository ppa:libreoffice/ppa -y
 sudo apt update

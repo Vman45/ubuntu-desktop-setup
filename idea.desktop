@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=IntelliJ IDEA
+Comment=IntelliJ IDEA
+Exec=/home/noop/Applications/IDEA/bin/idea.sh
+Icon=/home/noop/Applications/IDEA/bin/idea.png
+Terminal=false
+Type=Application
+X-GNOME-UsesNotifications=true
