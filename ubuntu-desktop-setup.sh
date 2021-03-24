@@ -117,6 +117,11 @@ rm linux
 mkdir ~/Applications -p
 mv Telegram ~/Applications
 
+# Discord
+wget "https://discord.com/api/download?platform=linux&format=deb" -O discord.deb
+sudo apt install ./discord.deb -y
+rm discord.deb
+
 # Zoom
 wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo apt install ./zoom_amd64.deb -y
