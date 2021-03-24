@@ -117,6 +117,10 @@ rm linux
 mkdir ~/Applications -p
 mv Telegram ~/Applications
 
+# Zoom
+wget https://zoom.us/client/latest/zoom_amd64.deb
+sudo apt install ./zoom_amd64.deb -y
+rm zoom_amd64.deb
 
 
 #########
