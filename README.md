@@ -24,4 +24,4 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
 * Messengers
   * [Telegram](https://telegram.org)
 * Other
-  * [KeePassX](https://www.keepassx.org/)
+  * [KeePassX](https://www.keepassx.org)
