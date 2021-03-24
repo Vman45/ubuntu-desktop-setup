@@ -97,6 +97,7 @@ mv IDEA ~/Applications
 
 # IDEA shortcut
 wget -q https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/master/idea.desktop
+sed -i s/user/$USER/g idea.desktop
 mv idea.desktop ~/.local/share/applications
 
 # LibreOffice
