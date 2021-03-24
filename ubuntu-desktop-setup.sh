@@ -122,5 +122,8 @@ mv Telegram ~/Applications
 #########
 # Other #
 #########
+# KeePassX
+sudo apt install keepassx -y
+
 # Create template
 touch ~/Templates/Untitled
