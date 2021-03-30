@@ -28,6 +28,9 @@ sudo apt install torbrowser-launcher -y
 # htpasswd command
 sudo apt install apache2-utils -y
 
+# htpasswd command
+sudo apt install htop -y
+
 # Gnome Tweak Tool
 sudo apt install gnome-tweak-tool -y
 
