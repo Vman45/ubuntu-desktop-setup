@@ -25,6 +25,9 @@ sudo apt install torbrowser-launcher -y
 ##########
 # System #
 ##########
+# Terminator
+sudo apt install terminator -y
+
 # htpasswd command
 sudo apt install apache2-utils -y
 
@@ -43,9 +46,6 @@ sudo apt install nvidia-driver-460 -y
 ###############
 # Development #
 ###############
-# Terminator
-sudo apt install terminator -y
-
 # GIT
 sudo apt-add-repository ppa:git-core/ppa -y
 sudo apt update

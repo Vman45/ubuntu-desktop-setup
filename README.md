@@ -8,12 +8,12 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Google Chrome](https://www.google.ru/intl/en/chrome)
   * [Tor browser](https://www.torproject.org/download)
 * System
+  * [Terminator](https://github.com/gnome-terminator/terminator)
   * htpasswd
   * [htop](https://github.com/htop-dev/htop)
   * [Gnome Tweak Tool](https://wiki.gnome.org/Apps/Tweaks)
   * NVIDIA driver
 * Development
-  * [Terminator](https://github.com/gnome-terminator/terminator)
   * [GIT](https://git-scm.com)
   * [Docker](https://www.docker.com)
   * [Node.js](https://nodejs.org)
