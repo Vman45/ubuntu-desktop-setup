@@ -28,9 +28,6 @@ sudo apt install torbrowser-launcher -y
 # Terminator
 sudo apt install terminator -y
 
-# htpasswd command
-sudo apt install apache2-utils -y
-
 # htop
 sudo apt install htop -y
 
@@ -72,6 +69,9 @@ wget -qO - https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
 sudo apt install yarn -y
+
+# apache2-utils for htpasswd command
+sudo apt install apache2-utils -y
 
 
 

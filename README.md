@@ -9,7 +9,6 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Tor browser](https://www.torproject.org/download)
 * System
   * [Terminator](https://github.com/gnome-terminator/terminator)
-  * htpasswd
   * [htop](https://github.com/htop-dev/htop)
   * [Gnome Tweak Tool](https://wiki.gnome.org/Apps/Tweaks)
   * [KeePassX](https://www.keepassx.org)
@@ -19,6 +18,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Docker](https://www.docker.com)
   * [Node.js](https://nodejs.org)
   * [Yarn](https://yarnpkg.com)
+  * [apache2-utils](http://httpd.apache.org)
 * Editors
   * [Sublime 3](https://www.sublimetext.com/3)
   * [IDEA](https://www.jetbrains.com) on [Oracle JAVA](https://www.oracle.com/java/technologies)
