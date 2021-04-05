@@ -44,6 +44,7 @@ sudo apt install my-weather-indicator -y
 
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
+sudo apt update -y
 sudo apt install nvidia-driver-460 -y
 
 
@@ -94,7 +95,7 @@ sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /usr/share/applications/def
 
 # Oracle JAVA for IDEA
 sudo add-apt-repository ppa:linuxuprising/java -y
-sudo apt update
+sudo apt update -y
 sudo apt install oracle-java15-installer -y
 
 # IDEA
@@ -113,7 +114,7 @@ mv idea.desktop ~/.local/share/applications
 
 # LibreOffice
 sudo add-apt-repository ppa:libreoffice/ppa -y
-sudo apt update
+sudo apt update -y
 sudo apt install libreoffice libreoffice-gnome -y
 
 
