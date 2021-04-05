@@ -2,7 +2,7 @@
 ##########
 # Ubuntu #
 ##########
-sudo apt update
+sudo apt update -y
 sudo apt dist-upgrade -y
 sudo apt autoremove -y
 
@@ -14,7 +14,7 @@ sudo apt autoremove -y
 # Google Chrome
 wget -qO - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-sudo apt update
+sudo apt update -y
 sudo apt install google-chrome-stable -y
 
 # Tor browser
@@ -54,7 +54,7 @@ sudo apt install nvidia-driver-460 -y
 ###############
 # GIT
 sudo apt-add-repository ppa:git-core/ppa -y
-sudo apt update
+sudo apt update -y
 sudo apt install git -y
 
 # Docker
@@ -73,7 +73,7 @@ sudo apt install nodejs -y
 # Yarn
 wget -qO - https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
+sudo apt update -y
 sudo apt install yarn -y
 
 # apache2-utils for htpasswd command
@@ -88,7 +88,7 @@ sudo apt install apache2-utils -y
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt install apt-transport-https -y
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt update
+sudo apt update -y
 sudo apt install sublime-text -y
 sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /etc/gnome/defaults.list
 sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /usr/share/applications/defaults.list
