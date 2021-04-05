@@ -126,7 +126,6 @@ sudo apt install libreoffice libreoffice-gnome -y
 # Messengers #
 ##############
 # Telegram
-sudo apt install rename -y
 wget https://telegram.org/dl/desktop/linux
 tar -xf linux
 rm linux
