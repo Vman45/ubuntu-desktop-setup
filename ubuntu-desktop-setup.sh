@@ -42,6 +42,9 @@ sudo add-apt-repository ppa:atareao/atareao -y
 sudo apt update -y
 sudo apt install my-weather-indicator -y
 
+# Hardware Sensors Indicator
+sudo snap install indicator-sensors -y
+
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update -y
