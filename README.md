@@ -12,6 +12,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [htop](https://github.com/htop-dev/htop)
   * [Gnome Tweak Tool](https://wiki.gnome.org/Apps/Tweaks)
   * [KeePassX](https://www.keepassx.org)
+  * [My Weather Indicator](https://github.com/atareao/my-weather-indicator)
   * NVIDIA driver
 * Development
   * [GIT](https://git-scm.com)

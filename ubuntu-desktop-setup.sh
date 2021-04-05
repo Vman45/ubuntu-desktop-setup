@@ -37,6 +37,11 @@ sudo apt install gnome-tweak-tool -y
 # KeePassX
 sudo apt install keepassx -y
 
+# My Weather Indicator
+sudo add-apt-repository ppa:atareao/atareao -y
+sudo apt update -y
+sudo apt install my-weather-indicator -y
+
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt install nvidia-driver-460 -y
