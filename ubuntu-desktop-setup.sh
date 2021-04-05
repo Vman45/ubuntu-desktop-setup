@@ -43,7 +43,7 @@ sudo apt update -y
 sudo apt install my-weather-indicator -y
 
 # Hardware Sensors Indicator
-sudo snap install indicator-sensors -y
+sudo snap install indicator-sensors
 
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
