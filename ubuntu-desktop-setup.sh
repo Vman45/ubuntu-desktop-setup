@@ -31,7 +31,7 @@ sudo apt install terminator -y
 # htpasswd command
 sudo apt install apache2-utils -y
 
-# htpasswd command
+# htop
 sudo apt install htop -y
 
 # Gnome Tweak Tool
