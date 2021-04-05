@@ -12,6 +12,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * htpasswd
   * [htop](https://github.com/htop-dev/htop)
   * [Gnome Tweak Tool](https://wiki.gnome.org/Apps/Tweaks)
+  * [KeePassX](https://www.keepassx.org)
   * NVIDIA driver
 * Development
   * [GIT](https://git-scm.com)
@@ -26,5 +27,3 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Telegram](https://telegram.org)
   * [Discord](https://discord.com)
   * [Zoom](https://zoom.us)
-* Other
-  * [KeePassX](https://www.keepassx.org)

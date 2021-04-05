@@ -37,6 +37,9 @@ sudo apt install htop -y
 # Gnome Tweak Tool
 sudo apt install gnome-tweak-tool -y
 
+# KeePassX
+sudo apt install keepassx -y
+
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt install nvidia-driver-460 -y
@@ -136,8 +139,5 @@ rm zoom_amd64.deb
 #########
 # Other #
 #########
-# KeePassX
-sudo apt install keepassx -y
-
 # Create template
 touch ~/Templates/Untitled
