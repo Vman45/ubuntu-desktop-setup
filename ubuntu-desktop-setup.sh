@@ -106,11 +106,12 @@ sudo apt install oracle-java15-installer -y
 
 # IDEA
 sudo apt install rename -y
-wget https://download-cf.jetbrains.com/idea/ideaIU-2020.3.3.tar.gz
-tar -xzvf ideaIU-2020.3.3.tar.gz
-rm ideaIU-2020.3.3.tar.gz
-rename "s/idea-IU-203.+/IDEA/" *
+wget https://download-cf.jetbrains.com/idea/ideaIU-2021.1.tar.gz
+tar -xzvf ideaIU-2021.1.tar.gz
+rm ideaIU-2021.1.tar.gz
+rename "s/idea-IU-211.+/IDEA/" *
 mkdir ~/Applications -p
+rm -rf ~/Applications/IDEA
 mv IDEA ~/Applications
 
 # IDEA shortcut
