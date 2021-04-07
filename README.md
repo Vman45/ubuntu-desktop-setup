@@ -14,6 +14,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [KeePassX](https://www.keepassx.org)
   * [My Weather Indicator](https://github.com/atareao/my-weather-indicator)
   * [Hardware Sensors Indicator](https://github.com/alexmurray/indicator-sensors)
+  * [PulseAudio Volume Control](https://gitlab.freedesktop.org/pulseaudio/pavucontrol)
   * NVIDIA driver
 * Development
   * [GIT](https://git-scm.com)

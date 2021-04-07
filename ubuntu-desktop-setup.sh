@@ -45,6 +45,9 @@ sudo apt install my-weather-indicator -y
 # Hardware Sensors Indicator
 sudo snap install indicator-sensors
 
+# PulseAudio Volume Control
+sudo apt install pavucontrol -y
+
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update
