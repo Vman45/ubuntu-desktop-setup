@@ -16,6 +16,10 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Hardware Sensors Indicator](https://github.com/alexmurray/indicator-sensors)
   * [PulseAudio Volume Control](https://gitlab.freedesktop.org/pulseaudio/pavucontrol)
   * NVIDIA driver
+* Video
+  * [OBS Studio](https://obsproject.com)
+  * [VLC](https://www.videolan.org)
+  * [Kdenlive](https://kdenlive.org)
 * Development
   * [GIT](https://git-scm.com)
   * [Docker](https://www.docker.com)

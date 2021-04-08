@@ -54,6 +54,23 @@ sudo apt update
 sudo apt install nvidia-driver-460 -y
 
 
+#########
+# Video #
+#########
+# OBS Studio
+sudo add-apt-repository ppa:obsproject/obs-studio -y
+sudo apt update
+sudo apt install obs-studio -y
+
+# VLC
+sudo snap install vlc
+
+# Kdenlive
+sudo add-apt-repository ppa:kdenlive/kdenlive-stable -y
+sudo apt update
+sudo apt install kdenlive -y
+
+
 
 ###############
 # Development #
