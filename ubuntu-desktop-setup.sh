@@ -119,7 +119,7 @@ sudo sed -i 's/gedit.desktop/sublime_text.desktop/g' /usr/share/applications/def
 # Oracle JAVA for IDEA
 sudo add-apt-repository ppa:linuxuprising/java -y
 sudo apt update
-sudo apt install oracle-java15-installer -y
+sudo apt install oracle-java16-installer -y
 
 # IDEA
 sudo apt install rename -y
