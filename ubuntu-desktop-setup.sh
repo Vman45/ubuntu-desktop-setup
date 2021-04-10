@@ -54,6 +54,7 @@ sudo apt update
 sudo apt install nvidia-driver-460 -y
 
 
+
 #########
 # Video #
 #########
