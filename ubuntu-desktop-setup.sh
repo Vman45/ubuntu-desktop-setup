@@ -91,7 +91,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose -y
 sudo usermod -aG docker $USER
 
 # Node.js
-wget -qO - https://deb.nodesource.com/setup_15.x | sudo -E bash -
+wget -qO - https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt install nodejs -y
 
 # Yarn
