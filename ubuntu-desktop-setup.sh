@@ -142,6 +142,18 @@ sudo add-apt-repository ppa:libreoffice/ppa -y
 sudo apt update
 sudo apt install libreoffice libreoffice-gnome -y
 
+# Postman
+wget https://dl.pstmn.io/download/latest/linux64
+tar -xf linux64
+rm linux64
+mkdir ~/Applications -p
+mv Postman ~/Applications
+
+# Postman shortcut
+wget -q https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/master/postman.desktop
+sed -i s/user/$USER/g postman.desktop
+mv postman.desktop ~/.local/share/applications
+
 
 
 ##############

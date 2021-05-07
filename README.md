@@ -30,6 +30,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Sublime 3](https://www.sublimetext.com/3)
   * [IDEA](https://www.jetbrains.com) on [Oracle JAVA](https://www.oracle.com/java/technologies)
   * [LibreOffice](https://www.libreoffice.org)
+  * [Postman](https://www.postman.com)
 * Messengers
   * [Telegram](https://telegram.org)
   * [Discord](https://discord.com)
