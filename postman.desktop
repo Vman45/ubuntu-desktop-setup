@@ -2,7 +2,7 @@
 Name=Postman
 Comment=Postman
 Exec=/home/user/Applications/Postman/Postman
-Icon=/home/user/Applications/app/resources/app/assets/icon.png
+Icon=/home/user/Applications/Postman/app/resources/app/assets/icon.png
 Terminal=false
 Type=Application
 X-GNOME-UsesNotifications=true
