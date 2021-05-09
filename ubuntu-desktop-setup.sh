@@ -183,3 +183,10 @@ rm zoom_amd64.deb
 #########
 # Create template
 touch ~/Templates/Untitled
+
+
+
+###########
+# Aliases #
+###########
+echo "alias upgrade='wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-packages-update/master/ubuntu-packages-update.sh | bash -'" >> ~/.bash_aliases

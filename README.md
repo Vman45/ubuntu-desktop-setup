@@ -35,3 +35,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Telegram](https://telegram.org)
   * [Discord](https://discord.com)
   * [Zoom](https://zoom.us)
+* Other
+  * Template for `Untitled` document
+* Aliases
+  * `upgrade`
