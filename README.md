@@ -10,6 +10,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
 * System
   * [Terminator](https://github.com/gnome-terminator/terminator)
   * [htop](https://github.com/htop-dev/htop)
+  * [UnRAR](https://www.rarlab.com/rar_add.htm)
   * [Gnome Tweak Tool](https://wiki.gnome.org/Apps/Tweaks)
   * [KeePassX](https://www.keepassx.org)
   * [My Weather Indicator](https://github.com/atareao/my-weather-indicator)

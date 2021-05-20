@@ -31,6 +31,9 @@ sudo apt install terminator -y
 # htop
 sudo apt install htop -y
 
+# UnRAR
+sudo apt install unrar -y
+
 # Gnome Tweak Tool
 sudo apt install gnome-tweak-tool -y
 
