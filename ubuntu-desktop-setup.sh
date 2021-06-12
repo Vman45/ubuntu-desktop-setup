@@ -127,9 +127,9 @@ sudo apt install oracle-java16-installer -y
 
 # IDEA
 sudo apt install rename -y
-wget https://download-cf.jetbrains.com/idea/ideaIU-2021.1.1.tar.gz
-tar -xzvf ideaIU-2021.1.1.tar.gz
-rm ideaIU-2021.1.1.tar.gz
+wget https://download-cf.jetbrains.com/idea/ideaIU-2021.1.2.tar.gz
+tar -xzvf ideaIU-2021.1.2.tar.gz
+rm ideaIU-2021.1.2.tar.gz
 rename "s/idea-IU-211.+/IDEA/" *
 mkdir ~/Applications -p
 rm -rf ~/Applications/IDEA
