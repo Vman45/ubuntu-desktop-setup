@@ -28,18 +28,20 @@ sudo apt install torbrowser-launcher -y
 # Terminator
 sudo apt install terminator -y
 
-# htop
-sudo apt install htop -y
-
-# UnRAR
-sudo apt install unrar -y
-
 # Gnome Tweak Tool
 sudo apt install gnome-tweak-tool -y
 
 # KeePassX
 sudo apt install keepassx -y
 
+# PulseAudio Volume Control
+sudo apt install pavucontrol -y
+
+
+
+##############
+# Indicators #
+##############
 # My Weather Indicator
 sudo add-apt-repository ppa:atareao/atareao -y
 sudo apt update
@@ -48,9 +50,25 @@ sudo apt install my-weather-indicator -y
 # Hardware Sensors Indicator
 sudo snap install indicator-sensors
 
-# PulseAudio Volume Control
-sudo apt install pavucontrol -y
 
+
+######################
+# Terminal utilities #
+######################
+# htop
+sudo apt install htop -y
+
+# UnRAR
+sudo apt install unrar -y
+
+# apache2-utils for htpasswd command
+sudo apt install apache2-utils -y
+
+
+
+###########
+# Drivers #
+###########
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update
@@ -102,9 +120,6 @@ wget -qO - https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
 sudo apt install yarn -y
-
-# apache2-utils for htpasswd command
-sudo apt install apache2-utils -y
 
 
 
