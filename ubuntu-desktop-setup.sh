@@ -58,6 +58,9 @@ sudo snap install indicator-sensors
 # htop
 sudo apt install htop -y
 
+# duf
+sudo snap install duf-utility
+
 # UnRAR
 sudo apt install unrar -y
 

@@ -17,6 +17,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Hardware Sensors Indicator](https://github.com/alexmurray/indicator-sensors)
 * Terminal utilities
   * [htop](https://github.com/htop-dev/htop)
+  * [duf](https://github.com/muesli/duf)
   * [UnRAR](https://www.rarlab.com/rar_add.htm)
   * [apache2-utils](http://httpd.apache.org)
 * Drivers
