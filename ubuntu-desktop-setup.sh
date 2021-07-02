@@ -75,7 +75,7 @@ sudo apt install apache2-utils -y
 # NVIDIA driver
 sudo add-apt-repository ppa:graphics-drivers/ppa -y
 sudo apt update
-sudo apt install nvidia-driver-460 -y
+sudo apt install nvidia-driver-465 -y
 
 
 
