@@ -32,7 +32,7 @@ wget -qO - https://raw.githubusercontent.com/kokkekpek/ubuntu-desktop-setup/mast
   * [Node.js](https://nodejs.org)
   * [Yarn](https://yarnpkg.com)
 * Editors
-  * [Sublime 3](https://www.sublimetext.com/3)
+  * [Sublime](https://www.sublimetext.com)
   * [IDEA](https://www.jetbrains.com) on [Oracle JAVA](https://www.oracle.com/java/technologies)
   * [LibreOffice](https://www.libreoffice.org)
   * [Postman](https://www.postman.com)
